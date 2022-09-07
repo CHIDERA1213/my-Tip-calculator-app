@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="Tip">
+        <div class="Calculator">
+            <h1 style="margin-bottom:1rem ;">TIP CALCULATOR</h1>
+            <div>
+                <form>
+                    <div class="error"></div>
+                    <div>
+                        <p>Bill Amount :</p>
+                        <input type="text" name="Amount" id="Amount" placeholder="75">
+                    </div>
+                    <div class="percent">
+                        <p>Percentage Tip :</p>
+                        <input type="text" name="Tip" id="PT" placeholder="75">
+                    </div>
+                    <div>
+                        <p>Number of persons :</p>
+                        <input type="text" name="persons" id="NOP" placeholder="75">
+                    </div>
+
+                    <div class="btn" style="margin-top:1rem ;">
+                        <input type="button" id="calculateTip" value="calculate">
+                    </div>
+
+                    <p>
+                        tip Amount: <span class="tipamount"></span>
+                    </p>
+                    
+                    <p>
+                        total Amount per person: <span class="totalamount"></span>
+                    </p>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <script src="/index.js"></script>
+</body>
+</html>

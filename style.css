@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Tip{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.percent{
+    margin: 1rem 0;
+}
+
+.errMsg{
+    background-color: red;
+    text-align: center;
+    /* margin: 10px 0 200px; */
+    padding: 10px;
+    color: white;
+}
+
+.error{
+    margin: 10px 0 20px;
+}
